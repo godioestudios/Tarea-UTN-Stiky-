@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+.nav-host{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 40px;
+    width: 100%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+    background-color: #FFFFFF;
+    color:  #2F1C6A;
+}
+
+.div-nav-left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.nav-host-logo{
+    width: 150px;
+    height: 30px;
+    
+}
+
+
+
+.nav-host-list{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-host-list ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+ 
+.div-nav-right{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.div-nav-right span{
+    display: flex;
+    align-items: center;
+    gap:  5px;
+}
+
+.div-nav-right img{
+    height: 16px;
+    width: 16px;
+}
+
+.div-nav-right button{
+    padding: 12px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+/*  media queries celular */
+
+@media screen and (max-width: 380px) {
+    .nav-host {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .div-nav-left {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .nav-host-logo {
+        width: 120px;
+        height: auto;
+    }
+
+    .nav-host-list ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .div-nav-right {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .div-nav-right button {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+
+

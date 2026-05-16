@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600">
+  <!-- Franja celeste superior -->
+  <rect width="900" height="200" y="0" fill="#74ACDF" />
+  <!-- Franja blanca central -->
+  <rect width="900" height="200" y="200" fill="#FFFFFF" />
+  <!-- Franja celeste inferior -->
+  <rect width="900" height="200" y="400" fill="#74ACDF" />
+</svg>
